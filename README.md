@@ -1,16 +1,55 @@
-# React + Vite
+# 📌 PR11 - Firebase Database Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Todo Application built using HTML5, Bootstrap, React JS, Redux Toolkit, and Firebase Realtime Database. This project demonstrates full CRUD operations with real-time data syncing and API handling using Axios.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✅ Add Todo
+📖 Read Todos (Real-time updates)
+✏️ Update Todo
+❌ Delete Todo
+🔄 Real-time database sync with Firebase
+📦 State management using Redux Toolkit
+🌐 API handling using Axios
+📱 Fully responsive UI with Bootstrap
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend:
+- HTML5
+- Bootstrap
+- React JS
+- State Management:
+- Redux Toolkit
+### Backend / Database:
+- Firebase Realtime Database
+- API Handling:
+- Axios
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+PR11-Firebase-Database/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── redux/
+│   │   ├── store.js
+│   │   └── todoSlice.js
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation & Setup
+- Clone the repository
+git clone https://github.com/Pooja23494/PR11-Firebase-Database.git
+- Navigate to project folder
+cd PR11-Firebase-Database
+- Install dependencies
+npm install
+- Start the development server
+npm start
+
+## Screenshot
+![alt text](<localhost_5173_ (7).png>)
